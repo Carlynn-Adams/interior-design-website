@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Interior Design Portfolio showcasing stunning design projects.">
+  <title>Serenity Design Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="logo">Serenity Design Studio</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero"  style="--section-right-color: #928258;">
+    <div class="hero-content">
+      <h1>Transform Your Space with Beautiful Interiors</h1>
+      <button id="portfolioButton">View Portfolio</button>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" style="--section-left-color: #928258; --section-right-color: #ebddc3;">
+    <h2>Our Work</h2>
+    <div class="grid">
+      <div class="item"><img src="images/project-1.jpg" alt="Project 1"></div>
+      <div class="item"><img src="images/project-2.jpg" alt="Project 2"></div>
+      <div class="item"><img src="images/project-3.jpg" alt="Project 3"></div>
+      <div class="item"><img src="images/project-4.png" alt="Project 4"></div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- About Section -->
+  <section id="about"style="--section-left-color: #ebddc3; --section-right-color: #f3f0eb;" >
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Serenity Design Studio specializes in crafting timeless and elegant interiors that blend modern aesthetics with functionality. Our mission is to create spaces that inspire and reflect your unique personality.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="images/chair.png" alt="Mid-Century Modern Chair">
+    </div>
+  </div>
+
+   <div class="reviews-container">
+    <h3>What the World Says</h3>
+    <div class="reviews">
+      <div class="review">
+        <blockquote>
+          "A trailblazer in interior design, Serenity Design Studio redefines luxury with every project." 
+        </blockquote>
+        <cite>— Vogue</cite>
+      </div>
+      <div class="review">
+        <blockquote>
+          "Serenity Design Studio creates spaces that are as livable as they are stunning." 
+        </blockquote>
+        <cite>— The New York Times</cite>
+      </div>
+      <div class="review">
+        <blockquote>
+          "A masterclass in mid-century modern design, their work is unparalleled." 
+        </blockquote>
+        <cite>— Architectural Digest</cite>
+      </div>
+       <div class="review">
+        <blockquote>
+          "Serenity Design Studio is the epitome of elegance and modernity."
+        </blockquote>
+        <cite>— Harper's Bazaar</cite>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+  <!-- Services Section -->
+  <section id="services">
+  <h2>Our Services</h2>
+  <div class="service">
+    <img src="images/residential.png" alt="Residential Design">
+    <div class="service-description">
+      <h3>Residential Design</h3>
+      <p>We create bespoke interiors that reflect your personal style and elevate your living spaces.</p>
+      <a href="#" class="learn-more">Learn More</a>
+    </div>
+  </div>
+  <div class="service">
+    <img src="images/commercial.jpg" alt="Commercial Design">
+    <div class="service-description">
+      <h3>Commercial Design</h3>
+      <p>Transform your business environment into an inspiring and functional space tailored to your needs.</p>
+      <a href="#" class="learn-more">Learn More</a>
+    </div>
+  </div>
+  <div class="service">
+    <img src="images/hospitality.jpg" alt="Hospitality Design">
+    <div class="service-description">
+      <h3>Hospitality Design</h3>
+      <p>We specialize in creating inviting and luxurious designs for hotels, restaurants, and lounges.</p>
+      <a href="#" class="learn-more">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+  <!-- Contact Section -->
+  <section id="contact"style="--section-left-color: #f3f0eb; --section-right-color: #333;" >
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" id="name" required>
+      <input type="email" placeholder="Your Email" id="email" required>
+      <textarea placeholder="Your Message" id="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2024 Serenity Design Studio | All Rights Reserved</p>
+    <div class="social">
+      <a href="#">Instagram</a> | <a href="#">Pinterest</a> | <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
